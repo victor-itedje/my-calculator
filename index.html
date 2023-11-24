@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,10 +18,10 @@
             <div class="buttons">
                 <div class="row">
                     <input type="button" name="b7" value="7" onClick="calcNumbers(b7.value)">
-                      <input type="button" name="b8" value="8" onClick="calcNumbers(b8.value)">
-                      <input type="button" name="b9" value="9" onClick="calcNumbers(b9.value)">
-                      <input type="button" name="addb" value="+" onClick="calcNumbers(addb.value)">
-                    </div>
+                    <input type="button" name="b8" value="8" onClick="calcNumbers(b8.value)">
+                    <input type="button" name="b9" value="9" onClick="calcNumbers(b9.value)">
+                    <input type="button" name="addb" value="+" onClick="calcNumbers(addb.value)">
+                </div>
 
                 <div class="row">
                     <input type="button" name="b4" value="4" onClick="calcNumbers(b4.value)">
@@ -37,17 +38,21 @@
                 </div>
 
                 <div class="row">
-                    <input type="button"  name="b0" value="0" onClick="calcNumbers(b0.value)">
+                    <input type="button" name="b0" value="0" onClick="calcNumbers(b0.value)">
                     <input type="button" name="potb" value="." onClick="calcNumbers(potb.value)">
                     <input type="button" name="divb" value="/" onClick="calcNumbers(divb.value)">
                     <input type="button" class="red" value="=" onClick="displayresult.value=eval(displayresult.value)">
+                </div>
+
+                <div class="row">
+                    <input type="button" name="clb" value="Cl" onClick="clearInput(clb.value)">
+                    <input type="button" name="delb" value="Del" onClick="delete1(delb.value)">
                 </div>
             </div>
         </form>
     </div>
 
-    <script
-        src="calc.js">
+    <script src="calc.js">
     </script>
 
 </body>
