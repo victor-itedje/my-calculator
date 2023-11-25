@@ -12,3 +12,7 @@ function clearInput(result){
 function delete1(result){
     form.displayresult.value = form.displayresult.value.slice(0,-1)
 }
+
+// function calculatePower(base, exponent) {
+//     form.displayresult.value = form.displayresult.value.Math.pow(base, exponent);
+//   }
